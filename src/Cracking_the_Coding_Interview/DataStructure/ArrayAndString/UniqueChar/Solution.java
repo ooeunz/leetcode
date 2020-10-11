@@ -1,6 +1,6 @@
-package Cracking_the_Coding_Interview.DataStructure;
+package Cracking_the_Coding_Interview.DataStructure.ArrayAndString.UniqueChar;
 
-public class ArrayAndString {
+public class Solution {
     public boolean isUniqueChars2(String str) {
         if (str.length() > 256) {
             return false;
@@ -32,7 +32,7 @@ public class ArrayAndString {
     }
 
     public static void main(String[] args) {
-        var s = new ArrayAndString();
+        var s = new Solution();
 
         var ret = s.isUniqueChars2("asdf");
         System.out.println(ret);
