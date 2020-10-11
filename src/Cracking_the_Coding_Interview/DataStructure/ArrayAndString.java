@@ -1,4 +1,4 @@
-package Coding_Interview.DataStructure;
+package Cracking_the_Coding_Interview.DataStructure;
 
 public class ArrayAndString {
     public boolean isUniqueChars2(String str) {
