@@ -1,5 +1,6 @@
 package Two_Sum;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -20,5 +21,13 @@ class Solution {
             }
         }
         return null;
+    }
+
+    public static void main(String[] args) {
+        var s = new Solution();
+
+        int[] nums = {2, 7, 11, 15};
+        var ret = s.twoSum(nums, 9);
+        System.out.println(Arrays.toString(ret));
     }
 }
