@@ -1,3 +1,3 @@
 # leetcode
 
-- [Two_sum](src/Two_Sum/explanation.md)
+- [Two_sum](src/Two_Sum/README.md)
