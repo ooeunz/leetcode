@@ -4,4 +4,5 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 [Cracking the Coding Interview(150 Programing Questions and Solutions)](src/Cracking_the_Coding_Interview)
 
 ### leetcode algorithm
-- [Two_sum](src/Two_Sum)
+- [Two_sum - easy](src/Two_Sum)
+- [Add_Two_Numbers - medium](src/Add_Two_Numbers)
