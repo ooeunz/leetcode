@@ -19,6 +19,7 @@ class Solution:
                 end += 1
         return mx
 
+
 s = Solution()
 print(s.lengthOfLongestSubstring("abcabcbb") == 3)
 print(s.lengthOfLongestSubstring("bbbbb") == 1)
