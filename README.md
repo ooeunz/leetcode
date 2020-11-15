@@ -6,8 +6,8 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 ### leetcode algorithm
 - Top Interview Questions (easy collection)
     - [Remove Duplicates from Sorted Array](src/Remove_Duplicates_from_Sorted_Array)
-- [Two_sum - easy](src/Two_Sum)
-- [Add_Two_Numbers - medium](src/Add_Two_Numbers)
-- [Longest_Substring_Without_Repeating_Characters - medium](src/Longest_Substring_Without_Repeating_Characters)
-- [Median_of_Two_Sorted_Arrays - hard](src/Median_of_Two_Sorted_Arrays)
-- [Longest_Palindromic_Substring - medium](src/Longest_Palindromic_Substring)
+- [Two sum - easy](src/Two_Sum)
+- [Add Two Numbers - medium](src/Add_Two_Numbers)
+- [Longest Substring Without Repeating Characters - medium](src/Longest_Substring_Without_Repeating_Characters)
+- [Median of Two Sorted Arrays - hard](src/Median_of_Two_Sorted_Arrays)
+- [Longest Palindromic Substring - medium](src/Longest_Palindromic_Substring)

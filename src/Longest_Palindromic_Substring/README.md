@@ -1,4 +1,4 @@
-# [Solving Longest_Palindromic_Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+# [Solving Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
 > 2020-11-09
 
