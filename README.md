@@ -4,6 +4,8 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 [Cracking the Coding Interview(150 Programing Questions and Solutions)](src/Cracking_the_Coding_Interview)
 
 ### leetcode algorithm
+- Top Interview Questions (easy collection)
+    - [Remove Duplicates from Sorted Array](src/Remove_Duplicates_from_Sorted_Array)
 - [Two_sum - easy](src/Two_Sum)
 - [Add_Two_Numbers - medium](src/Add_Two_Numbers)
 - [Longest_Substring_Without_Repeating_Characters - medium](src/Longest_Substring_Without_Repeating_Characters)
