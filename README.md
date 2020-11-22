@@ -7,6 +7,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - Top Interview Questions (easy collection)
     - [Remove Duplicates from Sorted Array - easy](src/LeetCode/Remove_Duplicates_from_Sorted_Array)
     - [Best Time to Buy and Sell Stock II - easy](src/LeetCode/Best_Time_to_Buy_and_Sell%20Stock_II)
+    - [Rotate Array - easy](src/LeetCode/Rotate_Array)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
