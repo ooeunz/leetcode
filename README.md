@@ -6,7 +6,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 ### leetcode algorithm
 - Top Interview Questions (easy collection)
     - [Remove Duplicates from Sorted Array - easy](src/LeetCode/Remove_Duplicates_from_Sorted_Array)
-    - [Best Time to Buy and Sell Stock II - easy](src/LeetCode/Best_Time_to_Buy_and_Sell%20Stock_II)
+    - [Best Time to Buy and Sell Stock II - easy](src/LeetCode/Best_Time_to_Buy_and_Sell_Stock_II)
     - [Rotate Array - easy](src/LeetCode/Rotate_Array)
     - [Contains Duplicate - easy](src/LeetCode/Contains_Duplicate)
     - [Single Number - easy](src/LeetCode/Single_Number)
