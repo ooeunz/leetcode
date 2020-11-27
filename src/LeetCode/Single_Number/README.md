@@ -17,3 +17,18 @@ class Solution:
         pkg = collections.Counter(nums)
         return list(filter(lambda x: pkg[x] == 1, pkg))[0]
 ```
+
+### solve 2.
+> Follow up: Could you implement a solution with a linear runtime complexity and without using extra memory?
+
+Follow up으로 한번의 loop와 extra memory 없이 정답을 리턴하는 알고리즘이 존재합니다. 바로 **비트 연산 XOR**을 이용하는 것 입니다.
+XOR은 두 값이 일치하지 않을 때 True를 반환하는 연산입니다. 그리고 특히나 **결합 법칙**이 성립하기 때문에 `(x (+) y) (+) z = x (+) (y (+) z)`와 같은 식 역시 성립됩니다.
+따라서 하나의 변수에 모두 `^=` 비트 연산을 하여 가장 마지막에 남은 `False`로 return되는 값을 확인할 수 있습니다.
+```python
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        a = 0
+        for i in nums:
+            a ^= i
+        return a
+```
