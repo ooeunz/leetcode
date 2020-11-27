@@ -9,6 +9,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Best Time to Buy and Sell Stock II - easy](src/LeetCode/Best_Time_to_Buy_and_Sell%20Stock_II)
     - [Rotate Array - easy](src/LeetCode/Rotate_Array)
     - [Contains Duplicate - easy](src/LeetCode/Contains_Duplicate)
+    - [Single Number - easy](src/LeetCode/Single_Number)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
