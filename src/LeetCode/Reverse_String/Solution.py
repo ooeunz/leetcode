@@ -14,4 +14,4 @@ class Solution:
 
 s = Solution()
 s.reverseString(["h", "e", "l", "l", "o"])  # ["o", "l", "l", "e", "h"]
-s.reverseString(["H", "a", "n", "n", "a", "h"]) # ["h", "a", "n", "n", "a", "H"]
+s.reverseString(["H", "a", "n", "n", "a", "h"])  # ["h", "a", "n", "n", "a", "H"]
