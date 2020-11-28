@@ -11,6 +11,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Contains Duplicate - easy](src/LeetCode/Contains_Duplicate)
     - [Single Number - easy](src/LeetCode/Single_Number)
     - [Intersection of Two Arrays II](src/LeetCode/Intersection_of_Two_Arrays_II)
+    - [Plus One](src/LeetCode/Plus_One)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)

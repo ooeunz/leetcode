@@ -2,23 +2,16 @@ from typing import List
 
 
 class Solution:
-    def round_up(self, digits: list, idx: int):
-        if idx < len(digits):
-            if digits[idx] == 9:
-                digits[idx] = 0
-                self.round_up(digits, idx + 1)
-            else:
-                digits[idx] += 1
-        else:
-            digits.append(1)
-
     def plusOne(self, digits: List[int]) -> List[int]:
-        reverse = list(reversed(digits))
-        if reverse[0] == 9:
-            self.round_up(reverse, 0)
-        else:
-            reverse[0] += 1
-        return list(reversed(reverse))
+        for i in range(len(digits) - 1, -1, -1):
+            if digits[i] == 9:
+                digits[i] = 0
+                if i == 0:
+                    return [1] + digits
+            else:
+                digits[i] += 1
+                break
+        return digits
 
 
 s = Solution()
