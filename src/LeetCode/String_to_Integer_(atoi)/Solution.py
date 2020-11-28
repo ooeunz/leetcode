@@ -1,3 +1,6 @@
+from string import ascii_lowercase
+
+
 class Solution:
     def check_out_of_range(self, ans):
         if -2 ** 31 >= ans:
@@ -10,26 +13,18 @@ class Solution:
     def myAtoi(self, s: str) -> int:
         if len(s) < 1:
             return 0
-
         ans = []
         OPERATOR = ('+', '-')
-        # If s[0] is letter
-        if s[0].isspace() or s[0].isdigit() is True or s[0] in OPERATOR:
-            for char in s:
-                if not ans \
-                        and char.isdigit() is False \
-                        and char not in OPERATOR\
-                        and char.isspace() is False:
-                    return 0
-                if ans and char.isdigit() is False:
-                    break
-                if char.isdigit() or char in OPERATOR:
-                    ans.append(char)
-            # Check ans is digit
-            ans = int(''.join(ans)) if ''.join(ans).lstrip('+').lstrip('-').isdigit() else 0
-            return self.check_out_of_range(ans)
-        else:
-            return 0
+        for char in s:
+            if not ans and char in ascii_lowercase + '.':
+                return 0
+            if ans and char.isdigit() is False:
+                break
+            if char.isdigit() or char in OPERATOR:
+                ans.append(char)
+        # Check ans is digit
+        ans = int(''.join(ans)) if ''.join(ans).lstrip('+').lstrip('-').isdigit() else 0
+        return self.check_out_of_range(ans)
 
 
 s = Solution()
@@ -44,3 +39,4 @@ print(s.myAtoi('-+12') == 0)
 print(s.myAtoi('.1') == 0)
 print(s.myAtoi('') == 0)
 print(s.myAtoi(' ') == 0)
+print(s.myAtoi(' b11228552307') == 0)
