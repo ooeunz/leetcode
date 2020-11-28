@@ -15,6 +15,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Move Zeroes - easy](src/LeetCode/Move_Zeroes)
     - [Reverse String - easy](src/LeetCode/Reverse_String)
     - [Reverse Integer - easy](src/LeetCode/Reverse_Integer)
+    - [First Unique Character in a String](src/LeetCode/First_Unique_Character_in_a_String)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
