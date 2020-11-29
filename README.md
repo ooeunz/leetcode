@@ -21,6 +21,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [String to Integer (atoi) - easy](src/LeetCode/String_to_Integer_(atoi))
     - [Implement strStr() - easy](src/LeetCode/Implement_strStr())
     - [Longest Common Prefix - easy](src/LeetCode/Longest_Common_Prefix)
+    - [Delete Node in a Linked List](src/LeetCode/Delete_Node_in_a_Linked_List)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
