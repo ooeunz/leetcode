@@ -23,6 +23,8 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Longest Common Prefix - easy](src/LeetCode/Longest_Common_Prefix)
     - [Delete Node in a Linked List](src/LeetCode/Delete_Node_in_a_Linked_List)
     - [Remove Nth Node From End of List - easy](src/LeetCode/Remove_Nth_Node_From_End_of_List)
+    - [Reverse Linked List - easy](src/LeetCode/Reverse_Linked_List)
+    - [Merge Two Sorted Lists - easy](src/LeetCode/Merge_Two_Sorted_Lists)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
