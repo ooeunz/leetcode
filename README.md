@@ -26,6 +26,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Reverse Linked List - easy](src/LeetCode/Reverse_Linked_List)
     - [Merge Two Sorted Lists - easy](src/LeetCode/Merge_Two_Sorted_Lists)
     - [Maximum Depth of Binary Tree - easy](src/LeetCode/Maximum_Depth_of_Binary_Tree)
+    - [Validate Binary Search Tree - easy](src/LeetCode/Validate_Binary_Search_Tree)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
