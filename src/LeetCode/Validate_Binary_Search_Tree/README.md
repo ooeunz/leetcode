@@ -1,6 +1,6 @@
 # [Validate Binary Search Tree](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/)
 
-> 2020-11-29
+> 2020-11-30
 
 주어진 Binary Search Tree가 유효한지를 확인하는 알고리즘입니다.
 
