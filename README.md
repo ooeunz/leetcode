@@ -29,6 +29,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Validate Binary Search Tree - easy](src/LeetCode/Validate_Binary_Search_Tree)
     - [Merge Sorted Array - easy](src/LeetCode/Merge_Sorted_Array)
     - [Sorting and Searching - easy](src/LeetCode/Sorting_and_Searching)
+    - [Climbing Stairs - easy](src/LeetCode/Climbing_Stairs)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
