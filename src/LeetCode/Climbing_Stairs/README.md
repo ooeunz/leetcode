@@ -20,3 +20,28 @@ class Solution:
         else:
             return self.climbStairs(n - 1) + self.climbStairs(n - 2)
 ``` 
+
+### solve 2.
+두번째 방법은 dynamic programing을 사용하는 방법입니다. dynamic programing, 이하 dp는 memoization을 이용하는 방식입니다.
+여러개의 중복되는 연산의 값을 메모리에 저장해두고 동일한 연산을 필요로 하는 경우 새롭게 계산하는 것이 아니라 메모리에 저장된 값을 불러오는 방법입니다.
+
+아래의 개선된 코드를 살펴보도록 하겠습니다. 먼저 기저 사례부분을 살펴보겠습니다.
+만약 `n`이 `1`이라면 `[1]`이라는 하나의 step만을 사용할 수 있으므로 `1`을 return 해야합니다.
+만약 `n`이 `2`라면, `[1, 1]`과 `[2]`라는 두개의 방법을 사용할 수 있으므로 `2`을 return 해야합니다.
+만약 `n`이 `3`이라면 `[1, 1, 1]`, `[1, 2]`, `[2, 1]`와 같이 세가지 방법을 사용할 수 있으므로 `3`을 return 해야합니다.
+
+따라서 해당하는 수가 될 때마다 `n`을 return하도록 해줍니다.
+그리고 그 다음 기저 사례로 만약 `n`이 이미 계산했던 값인지 확인하고 만약 값이 있다면 그 아래의 값들을 계산하지 않고 저장한 값을 불러와 return합니다.
+만약 계산한 적이 없는 값이라면 값을 계산해서 `d`딕셔너리에 값을 저장 해준 후 값을 return합니다.
+
+```python
+class Solution:
+    d = {}
+    def climbStairs(self, n: int) -> int:
+        if n == 1 or n == 2 or n == 3:
+            return n
+        if n in self.d:
+            return self.d[n]
+        self.d[n] = self.climbStairs(n - 1) + self.climbStairs(n - 2)
+        return self.d[n]
+```
