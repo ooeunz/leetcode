@@ -19,5 +19,4 @@ class Solution:
             return 1
         else:
             return self.climbStairs(n - 1) + self.climbStairs(n - 2)
-
 ``` 

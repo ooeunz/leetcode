@@ -1,11 +1,12 @@
 class Solution:
+    d = {}
     def climbStairs(self, n: int) -> int:
-        if n < 0:
-            return 0
-        elif n == 0:
-            return 1
-        else:
-            return self.climbStairs(n - 1) + self.climbStairs(n - 2)
+        if n == 0 or n == 1 or n == 2 or n == 3:
+            return n
+        if n in self.d:
+            return self.d[n]
+        self.d[n] = self.climbStairs(n - 1) + self.climbStairs(n - 2)
+        return self.d[n]
 
 
 s = Solution()
