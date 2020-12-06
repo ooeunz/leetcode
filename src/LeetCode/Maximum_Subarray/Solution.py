@@ -3,14 +3,16 @@ from typing import List
 
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        length = len(nums)
-        if length == 0:
+        if len(nums) == 0:
             return 0
-        mx = float('-inf')
-        for i in range(length):
-            for j in range(i + 1, length + 1):
-                mx = max(mx, sum(nums[i:j]))
-        return mx
+        ans = nums[0]
+        sub_sum = 0
+        for num in nums:
+            sub_sum += num
+            ans = max(ans, sub_sum)
+            if sub_sum < 0:
+                sub_sum = 0
+        return ans
 
 
 s = Solution()
