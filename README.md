@@ -33,6 +33,8 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Best Time to Buy and Sell Stock - easy](src/LeetCode/Best_Time_to_Buy_and_Sell_Stock)
     - [Maximum Subarray - easy](src/LeetCode/Maximum_Subarray)
     - [House Robber - easy](src/LeetCode/House_Robber)
+- Top Interview Questions (medium collection)
+    - [3Sum - medium](src/LeetCode/3Sum)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
