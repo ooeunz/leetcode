@@ -35,6 +35,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [House Robber - easy](src/LeetCode/House_Robber)
 - Top Interview Questions (medium collection)
     - [3Sum - medium](src/LeetCode/3Sum)
+    - [Set Matrix Zeroes - medium](src/LeetCode/Set_Matrix_Zeroes)
 - [Two sum - easy](src/LeetCode/Two_Sum)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Longest Substring Without Repeating Characters - medium](src/LeetCode/Longest_Substring_Without_Repeating_Characters)
