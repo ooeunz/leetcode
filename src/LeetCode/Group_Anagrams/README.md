@@ -10,6 +10,8 @@
 해당 key에 value로 `str`을 추가하고,만약 없다면 새롭게 key를 할당해서 배열에 값을 추가해갑니다.
 
 strs를 모두 순회하였다면 `ans`의 values만을 return합니다.
+
+해당 알고리즘은 `strs`를 한번 순회하기 때문에 `O(n)`만큼의 time complexity와 최대 n만큼의 dictionary 자료구조가 필요하기 때문에 space complexity 역시 `O(n)`입니다.
 ```python
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
