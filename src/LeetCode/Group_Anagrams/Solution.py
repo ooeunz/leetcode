@@ -1,20 +1,13 @@
 from typing import List
+import collections
 
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        ans = []
-        compare = []
+        ans = collections.defaultdict(list)
         for str in strs:
-            sort = "".join(sorted(list(str)))
-            if sort in compare:
-                for i in range(len(compare)):
-                    if compare[i] == sort:
-                        ans[i].append(str)
-            else:
-                compare.append(sort)
-                ans.append([str])
-        return ans
+            ans[tuple(sorted(str))].append(str)
+        return list(ans.values())
 
 
 s = Solution()
