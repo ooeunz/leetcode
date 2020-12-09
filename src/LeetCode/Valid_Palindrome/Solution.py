@@ -8,6 +8,5 @@ class Solution:
 
 
 s = Solution()
-print(s.isPalindrome("A man, a plan, a canal: Panama") == True)
-print(s.isPalindrome("race a car") == False)
-
+print(s.isPalindrome("A man, a plan, a canal: Panama") is True)
+print(s.isPalindrome("race a car") is False)
