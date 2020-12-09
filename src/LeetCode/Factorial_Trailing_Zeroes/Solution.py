@@ -3,7 +3,7 @@ import math
 
 class Solution:
     def trailingZeroes(self, n: int) -> int:
-        factorial = list(str(math.factorial(n)))
+        factorial = str(math.factorial(n))
 
         ans = 0
         for i in range(len(factorial) - 1, -1, -1):

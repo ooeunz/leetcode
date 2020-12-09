@@ -43,3 +43,4 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Palindromic Substring - medium](src/LeetCode/Palindromic_Substrings)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Median of Two Sorted Arrays - hard](src/LeetCode/Median_of_Two_Sorted_Arrays)
+- [Factorial Trailing Zeroes - easy](src/LeetCode/Factorial_Trailing_Zeroes)
