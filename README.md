@@ -43,6 +43,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Increasing Triplet Subsequence - medium](src/LeetCode/Increasing_Triplet_Subsequence)
     - [Sort Colors - medium](src/LeetCode/Sort_Colors)
     - [Top K Frequent Elements - medium](src/LeetCode/Top_K_Frequent_Elements)
+    - [Kth Largest Element in an Array - medium](src/LeetCode/Top_K_Frequent_Elements)
 - [Palindromic Substring - medium](src/LeetCode/Palindromic_Substrings)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Median of Two Sorted Arrays - hard](src/LeetCode/Median_of_Two_Sorted_Arrays)
