@@ -10,7 +10,7 @@ class Solution:
             if nums[i] == target:
                 start = i
                 break
-        for end in range(len(nums) - 1, start, -1):
+        for end in range(len(nums) - 1, -1, -1):
             if nums[end] == target:
                 return [start, end]
         return [-1, -1]
