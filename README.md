@@ -45,6 +45,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Top K Frequent Elements - medium](src/LeetCode/Top_K_Frequent_Elements)
     - [Kth Largest Element in an Array - medium](src/LeetCode/Top_K_Frequent_Elements)
     - [Find Peak Element - medium](src/LeetCode/Find_Peak_Element)
+    - [Search in Rotated Sorted Array - medium](src/LeetCode/Search_in_Rotated_Sorted_Array)
 - [Palindromic Substring - medium](src/LeetCode/Palindromic_Substrings)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Median of Two Sorted Arrays - hard](src/LeetCode/Median_of_Two_Sorted_Arrays)
