@@ -1,6 +1,6 @@
 # [String to Integer (atoi)](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/884/)
 
-> 2020-12-29
+> 2020-11-29
 
 문제의 조건은
 - 왼쪽의 문자열이 공백으로 시작되는 경우는 무시합니다.
