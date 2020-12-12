@@ -4,26 +4,18 @@ import collections
 
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
-        if amount < 0:
-            return 0
-        dp = collections.defaultdict(lambda: float('inf'))
-        ans = self.coin_change(coins, amount, dp)
-        return ans
-
-    def coin_change(self, coins: list, amount: int, dp):
-        if amount < 0:
-            return -1
         if amount == 0:
             return 0
-        if amount - 1 in dp:
-            return dp[amount - 1]
-        mn = float('inf')
-        for coin in coins:
-            res = self.coin_change(coins, amount - coin, dp)
-            if 0 <= res < mn:
-                mn = res + 1
-        dp[amount - 1] = mn if mn != float('inf') else -1
-        return dp[amount - 1]
+        dp = collections.defaultdict(lambda: float('inf'))
+        for i in range(1, amount + 1):
+            for coin in coins:
+                if coin <= amount and dp[coin] == float('inf'):
+                    dp[coin] = 1
+
+                prev_coin = i - coin
+                if 0 < prev_coin < float('inf'):
+                    dp[i] = min(dp[prev_coin] + 1, dp[i])
+        return dp[amount] if dp[amount] < float('inf') else -1
 
 
 s = Solution()
