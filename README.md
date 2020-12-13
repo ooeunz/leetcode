@@ -48,6 +48,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Search in Rotated Sorted Array - medium](src/LeetCode/Search_in_Rotated_Sorted_Array)
     - [Jump Game - medium](src/LeetCode/Jump_Game)
     - [Coin Change - medium](src/LeetCode/Coin_Change)
+    - [Container With Most Water - medium](src/LeetCode/Container_With_Most_Water)
 - [Palindromic Substring - medium](src/LeetCode/Palindromic_Substrings)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Median of Two Sorted Arrays - hard](src/LeetCode/Median_of_Two_Sorted_Arrays)
