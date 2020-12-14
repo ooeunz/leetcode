@@ -55,3 +55,4 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Median of Two Sorted Arrays - hard](src/LeetCode/Median_of_Two_Sorted_Arrays)
 - [Factorial Trailing Zeroes - easy](src/LeetCode/Factorial_Trailing_Zeroes)
 - [Valid Parentheses - easy](src/LeetCode/Valid_Parentheses)
+- [Min Stack - easy](src/LeetCode/Min_Stack)
