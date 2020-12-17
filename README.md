@@ -51,6 +51,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Container With Most Water - medium](src/LeetCode/Container_With_Most_Water)
     - [Generate Parentheses - medium](src/LeetCode/Generate_Parentheses)
     - [Unique Paths - medium](src/LeetCode/Unique_Paths)
+    - [Longest Increasing Subsequence - medium](src/LeetCode/Longest_Increasing_Subsequence)
 - [Palindromic Substring - medium](src/LeetCode/Palindromic_Substrings)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Median of Two Sorted Arrays - hard](src/LeetCode/Median_of_Two_Sorted_Arrays)
