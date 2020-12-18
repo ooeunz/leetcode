@@ -1,10 +1,23 @@
 from typing import List
-from itertools import permutations
 
 
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        return list(map(lambda x: list(x), permutations(nums, len(nums))))
+        ans = []
+        used = [False] * len(nums)
+
+        def generate(chosen, used):
+            if len(chosen) == len(nums):
+                ans.append(chosen[:])
+            for i in range(len(nums)):
+                if not used[i]:
+                    chosen.append(nums[i])
+                    used[i] = True
+                    generate(chosen, used)
+                    used[i] = False
+                    chosen.pop()
+        generate([], used)
+        return ans
 
 
 s = Solution()
