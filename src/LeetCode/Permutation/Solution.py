@@ -9,6 +9,7 @@ class Solution:
         def generate(chosen, used):
             if len(chosen) == len(nums):
                 ans.append(chosen[:])
+                return
             for i in range(len(nums)):
                 if not used[i]:
                     chosen.append(nums[i])
