@@ -13,9 +13,10 @@ class Solution:
             if target < 0:
                 return
 
-            for candidate in candidates:
-                chosen.append(candidate)
-                generate(chosen, target - candidate)
+            start = candidates.index(chosen[-1]) if chosen else 0
+            for i in range(start, len(candidates)):
+                chosen.append(candidates[i])
+                generate(chosen, target - candidates[i])
                 chosen.pop()
         generate([], target)
         return ans
