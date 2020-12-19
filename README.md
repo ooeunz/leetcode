@@ -54,6 +54,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Longest Increasing Subsequence - medium](src/LeetCode/Longest_Increasing_Subsequence)
     - [Permutation - medium](src/LeetCode/Permutation)
     - [Subsets - medium](src/LeetCode/Subsets)
+    - [Word Search - medium](src/LeetCode/Word_Search)
 - [Palindromic Substring - medium](src/LeetCode/Palindromic_Substrings)
 - [Add Two Numbers - medium](src/LeetCode/Add_Two_Numbers)
 - [Median of Two Sorted Arrays - hard](src/LeetCode/Median_of_Two_Sorted_Arrays)
