@@ -7,40 +7,41 @@ class Solution:
             return
         height, width = len(board), len(board[0])
         ROUND = ((0, 1), (0, -1), (-1, 0), (1, 0))
-        WHITE, BLACK = 'O', 'X'
-
-        black = [[board[i][j] for i in range(height)] for j in range(width)]
+        WHITE, BLACK, LIFE = 'O', 'X', '1'
 
         def in_boundary(row, col):
             return 0 <= row < height and 0 <= col < width
 
-        def convert(row: int, col: int, black: list):
-            if board[row][col] == BLACK:
-                return True
+        def find_LIFE_stone(row: int, col: int):
+            if board[row][col] == WHITE:
+                board[row][col] = LIFE
+            elif board[row][col] == BLACK:
+                return
 
-            white_box.append((row, col))
-            dead = True
             for r, c in ROUND:
                 nxt_r, nxt_c = row + r, col + c
-                if not in_boundary(nxt_r, nxt_c):
-                    return False
-                if black[nxt_r][nxt_c] != BLACK:
-                    black[row][col] = BLACK
-                    dead = dead and convert(nxt_r, nxt_c, black)
-                    black[row][col] = WHITE
-            return dead
+                if in_boundary(nxt_r, nxt_c) and board[nxt_r][nxt_c] == WHITE:
+                    find_LIFE_stone(nxt_r, nxt_c)
 
         for row in range(height):
+            find_LIFE_stone(row, 0)
+            find_LIFE_stone(row, width - 1)
+        for col in range(width):
+            find_LIFE_stone(0, col)
+            find_LIFE_stone(height - 1, col)
+        for row in range(height):
             for col in range(width):
-                white_box = []
-                if board[row][col] == WHITE and convert(row, col, black):
-                    while white_box:
-                        r, c = white_box.pop()
-                        board[r][c] = BLACK
+                if board[row][col] == LIFE:
+                    board[row][col] = WHITE
+                elif board[row][col] == WHITE:
+                    board[row][col] = BLACK
 
+        # This is nothing to do with the answer
         print(board)
 
 
 s = Solution()
 print(s.solve([['X', 'X', 'X', 'X'], ['X', 'O', 'O', 'X'], ['X', 'X', 'O', 'X'], ['X', 'O', 'X', 'X']]))
 print(s.solve([["O", "O", "O"], ["O", "O", "O"], ["O", "O", "O"]]))
+print(s.solve([["X", "O", "X"], ["X", "O", "X"], ["X", "O", "X"]]))
+print(s.solve([["X", "X", "X", "X"], ["X", "O", "O", "X"], ["X", "X", "O", "X"], ["X", "O", "X", "X"]]))
