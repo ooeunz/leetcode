@@ -66,3 +66,4 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Find All Numbers Disappeared in an Array - easy](src/LeetCode/Find_All_Numbers_Disappeared_in_an_Array)
 - [Minimum Path Sum - medium](src/LeetCode/Minimum_Path_Sum)
 - [Surrounded Regions - medium](src/LeetCode/Surrounded_Regions)
+- [Daily Temperatures - medium](src/LeetCode/Daily_Temperatures)
