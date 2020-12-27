@@ -27,8 +27,8 @@ class Solution:
 
 s = Solution()
 s.nextPermutation([1, 2, 3])
-# s.nextPermutation([5, 1, 1])
-# s.nextPermutation([3, 2, 1])
-# s.nextPermutation([1, 1, 5])
-# s.nextPermutation([1, 3, 2])
-# s.nextPermutation([1])
+s.nextPermutation([5, 1, 1])
+s.nextPermutation([3, 2, 1])
+s.nextPermutation([1, 1, 5])
+s.nextPermutation([1, 3, 2])
+s.nextPermutation([1])
