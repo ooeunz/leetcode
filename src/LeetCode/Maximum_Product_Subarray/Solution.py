@@ -15,4 +15,4 @@ class Solution:
 
 s = Solution()
 print(s.maxProduct([2, 3, -2, 4]))
-print(s.maxProduct([-2,0,-1]))
+print(s.maxProduct([-2, 0, -1]))
