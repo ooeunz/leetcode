@@ -69,3 +69,4 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Daily Temperatures - medium](src/LeetCode/Daily_Temperatures)
 - [Next Permutation - medium](src/LeetCode/Next_Permutation)
 - [Task Scheduler - medium](src/LeetCode/Task_Scheduler)
+- [Maximum Product Subarray - medium](src/LeetCode/Maximum_Product_Subarray)
