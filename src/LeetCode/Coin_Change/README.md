@@ -26,6 +26,9 @@ for문이 끝나고 `dp[amount]`값이 `float('inf')`가 아니라면, 즉 주�
 그렇지 않다면 `-1`을 return합니다.
 
 ```python
+import collections
+
+
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         if amount == 0:
@@ -56,6 +59,9 @@ class Solution:
 아래는 위 설명을 구현한 코드입니다.
 
 ```python
+import collections
+
+
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         if amount < 0:
