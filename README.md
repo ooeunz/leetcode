@@ -71,3 +71,4 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Task Scheduler - medium](src/LeetCode/Task_Scheduler)
 - [Maximum Product Subarray - medium](src/LeetCode/Maximum_Product_Subarray)
 - [Number of Islands - medium](src/LeetCode/Number_of_Islands)
+- [Group the People Given the Group Size They Belong To - medium](src/LeetCode/Group_the_People_Given_the_Group_Size_They_Belong_To)
