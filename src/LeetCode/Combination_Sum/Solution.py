@@ -7,9 +7,8 @@ class Solution:
 
         def generate(chosen: list, target: int):
             if target == 0:
-                chk = sorted(chosen[:])
-                if chk not in ans:
-                    ans.append(chk)
+                ans.append(chosen[:])
+                return
             if target < 0:
                 return
 
