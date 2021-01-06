@@ -3,23 +3,19 @@ from typing import List
 
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], X: int) -> int:
-        ans = standard = 0
-        for c, g in zip(customers, grumpy):
-            if not g:
-                standard += c
-
-        start = 0
-        while start < len(customers) - X + 1:
-            tmp = 0
-            for i in range(start, start + X):
-                if grumpy[i]:
-                    tmp += customers[i]
-
-            ans = max(ans, standard + tmp)
-            start += 1
-            while len(grumpy) > start and grumpy[start] != 1 and start < len(customers) - X:
-                start += 1
-        return ans
+        ans = 0
+        for i in range(len(grumpy)):
+            if grumpy[i] == 0:
+                ans += customers[i]
+                customers[i] = 0
+        best_solution = 0
+        cur = 0
+        for i, customer in enumerate(customers):
+            cur += customer
+            if i >= X:
+                cur -= customers[i - X]
+            best_solution = max(best_solution, cur)
+        return ans + best_solution
 
 
 s = Solution()
