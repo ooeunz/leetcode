@@ -73,3 +73,4 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Number of Islands - medium](src/LeetCode/Number_of_Islands)
 - [Group the People Given the Group Size They Belong To - medium](src/LeetCode/Group_the_People_Given_the_Group_Size_They_Belong_To)
 - [Grumpy Bookstore Owner - medium](src/LeetCode/Grumpy_Bookstore_Owner)
+- [Word Break - medium](src/LeetCode/Word_Break)
