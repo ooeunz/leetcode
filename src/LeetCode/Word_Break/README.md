@@ -36,6 +36,8 @@ class Solution:
 문자열 `s`와 동일한 크기의 `dp`배열을 선언해줍니다. 
 
 여기서 `dp`배열의 각 요소는 `wordDict`의 문자열이 시작할 수 있는 최적해를 나타냅니다.
+`dp`배열의 `dp[i]`는 `dp[lastTrue:i]`와 같이 마지막 `True`부터 `i`이전까지 subString이 유효하다는 것을 나타냅니다.
+
 예를들어 `s = "leetcode", wordDict = ["leet", "code"]`인 경우, 
 `s[0].startswith(wordDict[0])) is True`이기 때문에 `dp[0 + len(wordDict[0])] = True`가 됩니다.
 따라서 `dp[0 + len(wordDict[0])]`에서 다시 `wordDict`의 값들이 subString인지 확인하며 `dp`배열의 최적해를 채워나갈 수 있습니다.
