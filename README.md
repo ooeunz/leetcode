@@ -75,3 +75,4 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Grumpy Bookstore Owner - medium](src/LeetCode/Grumpy_Bookstore_Owner)
 - [Word Break - medium](src/LeetCode/Word_Break)
 - [Find the Duplicate Number - medium](src/LeetCode/Find_the_Duplicate_Number)
+- [Multiply Strings - medium](src/LeetCode/Multiply_Strings)
