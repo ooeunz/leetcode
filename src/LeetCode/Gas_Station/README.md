@@ -43,6 +43,21 @@ for문을 모두 끝내게 되었을 때 `total`의 값이 `0`보다 큰지 확�
 
 만약 `total`이 0보다 작다는 것은 모든 `gas`의 합에서 `cost`를 빼게 되었을 때 그 값이 부족하다는 뜻이 됩니다.
 이는 어떤 경우에 출발하더라도 한바퀴를 돌 수 없다는 것을 의미하므로 `-1`을 return 합니다.
+
+To solve this problem, I declare three variable. like start, acc, total.
+
+- start means index position,
+- acc is sum of from start to current index,
+- And total is mean sum of entire gas - cost.
+
+if value of acc greater than zero, it is prove that indexes less than i are better than zero.
+  
+When i execute for loop as much length of gas.
+if value of acc is smaller than zero, we have to reinitialize acc, and move start point to i + 1.
+
+Finally, when we escape for loop, we have to check about value of total.
+if total greater than 0, it's mean possible that you can travel around the circuit.
+but if total smaller than zero it's mean impossible. so this function will be return -1.
   
 ```python
 class Solution:
