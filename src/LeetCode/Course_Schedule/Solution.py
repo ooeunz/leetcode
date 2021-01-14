@@ -4,23 +4,23 @@ import collections
 
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        indegree = [0] * numCourses
+        in_degree = [0] * numCourses
         adjacency = collections.defaultdict(list)
         for k, v in prerequisites:
-            indegree[k] += 1
+            in_degree[k] += 1
             adjacency[v].append(k)
         queue = collections.deque()
-        for i in range(len(indegree)):
-            if indegree[i] == 0:
+        for i in range(len(in_degree)):
+            if in_degree[i] == 0:
                 queue.append(i)
         visited = set()
         while queue:
             node = queue.popleft()
             visited.add(node)
-            for dest in adjacency[node]:
-                indegree[dest] -= 1
-                if indegree[dest] == 0:
-                    queue.append(dest)
+            for out_degree in adjacency[node]:
+                in_degree[out_degree] -= 1
+                if in_degree[out_degree] == 0:
+                    queue.append(out_degree)
             adjacency[node] = []
         return len(visited) == numCourses
 
