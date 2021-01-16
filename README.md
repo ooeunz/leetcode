@@ -25,6 +25,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Multiply Strings - medium](src/LeetCode/Multiply_Strings)
 - [Gas Station - medium](src/LeetCode/Gas_Station)
 - [Course Schedule - medium](src/LeetCode/Course_Schedule)
+- [Queries on a Permutation With Key - medium](src/LeetCode/Queries_on_a_Permutation_With_Key)
 - Top Interview Questions (easy collection)
     - [Remove Duplicates from Sorted Array - easy](src/LeetCode/Remove_Duplicates_from_Sorted_Array)
     - [Best Time to Buy and Sell Stock II - easy](src/LeetCode/Best_Time_to_Buy_and_Sell_Stock_II)
