@@ -4,3 +4,4 @@
 
 - Lv3
     - [보석 상점](Lv3/Jewel_Shopping)
+    - [베스트앨범](Lv3/Best_Album)
