@@ -19,12 +19,12 @@
 형태의 두 dictionary를 만든 다음, 각 장르별로 재생시간이 많은 순으로 최대 2개까지 `ans` 배열에 담아서 return해 줍니다. 
 
 ```python
-import collections
+from collections import defaultdict
 
 
 def solution(genres: list, plays: list):
-    total = collections.defaultdict(int)
-    popular = collections.defaultdict(list)
+    total = defaultdict(int)
+    popular = defaultdict(list)
     for music in range(len(genres)):
         genre, play = genres[music], plays[music]
         total[genre] += play

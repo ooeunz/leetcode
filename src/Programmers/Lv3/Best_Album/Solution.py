@@ -1,9 +1,9 @@
-import collections
+from collections import defaultdict
 
 
 def solution(genres: list, plays: list):
-    total = collections.defaultdict(int)
-    popular = collections.defaultdict(list)
+    total = defaultdict(int)
+    popular = defaultdict(list)
     for music in range(len(genres)):
         genre, play = genres[music], plays[music]
         total[genre] += play
@@ -18,3 +18,4 @@ def solution(genres: list, plays: list):
 
 
 print(solution(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500]))
+
