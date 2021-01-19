@@ -9,6 +9,12 @@
 2. 모든 보석을 포함하게 되면 `start`를 옮기면서 모든 범위를 포함할 수 있는 최소의 범위를 찾습니다.
 3. 1번과 2번을 반복합니다.
 
+To solve this problem, we can using two point algorithm.
+First, we have to move end point until include entire jewel collection between start and end point.
+Second move start point until exclude entire jewel collection. and push this range in answer array.
+
+So, repeat this algorithm when start or end point get out gems array.
+
 ```python
 import collections
 
