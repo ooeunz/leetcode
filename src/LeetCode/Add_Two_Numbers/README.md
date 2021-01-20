@@ -1,4 +1,4 @@
-# [Two Sum](https://leetcode.com/problems/add-two-numbers/)
+# [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 
 > 2020-10-24
 

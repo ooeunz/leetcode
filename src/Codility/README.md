@@ -6,3 +6,6 @@ for Programmers
 
 ### Lesson 2.
 - Cyclic Rotation
+
+### Lesson 3.
+- Frog Jmp
