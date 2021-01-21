@@ -1,5 +1,6 @@
 # [Codility](https://app.codility.com/programmers/)
-for Programmers
+
+> for Programmers
 
 ### Lesson 1: Iteration
 - Binary Gap
