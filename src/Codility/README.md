@@ -22,3 +22,4 @@
 
 ### Lesson 7: Stacks And Queues
 - Fish
+- Nesting
