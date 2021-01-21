@@ -19,3 +19,6 @@
 
 ### Lesson 6: Sorting
 - Distinct
+
+### Lesson 7: Stacks And Queues
+- Fish
