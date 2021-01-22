@@ -9,3 +9,4 @@
     - [베스트앨범](Lv3/Best_Album)
     - [여행경로](Lv3/Travel_Route)
     - [가장 먼 노드](Lv3/Furthest_Node)
+    - [섬 연결하기](Lv3/Connect_Island)
