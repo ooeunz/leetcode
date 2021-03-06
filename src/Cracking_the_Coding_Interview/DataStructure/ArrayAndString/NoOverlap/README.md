@@ -30,3 +30,27 @@ public class Solution {
     }
 }
 ```
+
+### solve 2.
+문자열이 a ~ z로만 이루어져있다고 가정한다면 비트 연산을 이용해서 문제를 풀 수도 있습니다.
+
+```java
+public class Solution {
+    public boolean bitSolution(String s) {
+        int check = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int val = s.charAt(i) - 'a';
+            if ((check & (1 << val)) > 0) {
+                return false;
+            }
+            check |= (1 << val);
+        }
+        return true;
+    }
+}
+
+```
+
+### solve 3.
+때로는 문제의 요구사항에 따라, 문자열을 정렬한 후 문자열을 순회하며 인접한 문자의 값들을 비교하여 풀이할 수 있습니다.
+하지만 이러한 경우 정렬 알고리즘에 따라 추가적인 공간을 사용한다는 것을 염두해야 합니다.

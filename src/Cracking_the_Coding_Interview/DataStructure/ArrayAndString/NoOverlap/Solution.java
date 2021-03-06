@@ -16,9 +16,27 @@ public class Solution {
         return true;
     }
 
+    public boolean bitSolution(String s) {
+        int check = 0;
+        for (int i = 0; i < s.length(); i++) {
+            int val = s.charAt(i) - 'a';
+            if ((check & (1 << val)) > 0) {
+                return false;
+            }
+            check |= (1 << val);
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
+
+        // isUniqueChars
         System.out.println(solution.isUniqueChars("adsf"));
         System.out.println(!solution.isUniqueChars("aa"));
+
+        // bitSolution
+        System.out.println(solution.bitSolution("adsf"));
+        System.out.println(!solution.bitSolution("aa"));
     }
 }
