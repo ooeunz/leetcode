@@ -32,8 +32,13 @@ public class Solution {
 ```
 
 ### solve 2.
-문자열이 a ~ z로만 이루어져있다고 가정한다면 비트 연산을 이용해서 문제를 풀 수도 있습니다.
+문자열이 a ~ z로만 이루어져있다고 가정하 비트 연산을 이용해서 문제를 풀 수도 있습니다.
 
+해당 풀이는 비트 연산에서 `&` 연산시 0과 1이 만나면 0이 return되고 1과 1 또는 0과 0이 만나면 1이 return 되는 것을 이용합니다.
+str 문자열에서 문자를 하나씩 꺼내서 'a' char를 빼서 0부터 25까지의 숫자를 추출해주고, 해당 수만큼 1에서 left shift를 하게 됩니다.
+
+그 후 checker에서 & 연산을 이용해서 이전에 있었던 수라면 return false를, 이전에 없었던 수라면  | 연산을 이용해서 checker 변수에 해당 비트를 추가해줍니다.
+이와 같이 풀이하면 배열이 아니라 int 변수 하나만을 이용해서 문제를 풀이할 수 있습니다.
 ```java
 public class Solution {
     public boolean bitSolution(String s) {
