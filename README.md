@@ -1,7 +1,8 @@
 # leetcode
 Level up your coding skills and quickly land a job. This is the best place to expand your knowledge and get prepared for your next interview.
+
 ### Practice book
-[Cracking the Coding Interview(150 Programing Questions and Solutions)](src/Cracking_the_Coding_Interview)
+[Cracking the Coding Interview(150 Programing Questions and Solutions) 6/E](src/Cracking_the_Coding_Interview)
 
 [Programmers](src/Programmers)
 
