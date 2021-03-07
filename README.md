@@ -61,6 +61,7 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Best Time to Buy and Sell Stock - easy](src/LeetCode/Best_Time_to_Buy_and_Sell_Stock)
     - [Maximum Subarray - easy](src/LeetCode/Maximum_Subarray)
     - [House Robber - easy](src/LeetCode/House_Robber)
+    - [Palindrome Number - easy](src/LeetCode/Palindrome_Number)
 - Top Interview Questions (medium collection)
     - [3Sum - medium](src/LeetCode/3Sum)
     - [Set Matrix Zeroes - medium](src/LeetCode/Set_Matrix_Zeroes)
