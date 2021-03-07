@@ -31,6 +31,8 @@ Level up your coding skills and quickly land a job. This is the best place to ex
 - [Gas Station - medium](src/LeetCode/Gas_Station)
 - [Course Schedule - medium](src/LeetCode/Course_Schedule)
 - [Queries on a Permutation With Key - medium](src/LeetCode/Queries_on_a_Permutation_With_Key)
+- [Palindrome Number - easy](src/LeetCode/Palindrome_Number)
+- [Longest Valid Parentheses - hard](src/LeetCode/Longest_Valid_Parentheses) # it doesn't have explanation.
 - Top Interview Questions (easy collection)
     - [Remove Duplicates from Sorted Array - easy](src/LeetCode/Remove_Duplicates_from_Sorted_Array)
     - [Best Time to Buy and Sell Stock II - easy](src/LeetCode/Best_Time_to_Buy_and_Sell_Stock_II)
@@ -61,7 +63,6 @@ Level up your coding skills and quickly land a job. This is the best place to ex
     - [Best Time to Buy and Sell Stock - easy](src/LeetCode/Best_Time_to_Buy_and_Sell_Stock)
     - [Maximum Subarray - easy](src/LeetCode/Maximum_Subarray)
     - [House Robber - easy](src/LeetCode/House_Robber)
-    - [Palindrome Number - easy](src/LeetCode/Palindrome_Number)
 - Top Interview Questions (medium collection)
     - [3Sum - medium](src/LeetCode/3Sum)
     - [Set Matrix Zeroes - medium](src/LeetCode/Set_Matrix_Zeroes)
