@@ -1,4 +1,4 @@
-package LeetCode.Longest_Valid_Parentheses;
+package leetcode.Longest_Valid_Parentheses;
 
 import java.util.HashSet;
 import java.util.Set;

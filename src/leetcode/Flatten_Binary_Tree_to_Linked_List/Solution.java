@@ -1,4 +1,4 @@
-package LeetCode.Flatten_Binary_Tree_to_Linked_List;
+package leetcode.Flatten_Binary_Tree_to_Linked_List;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package LeetCode.Palindromic_Substrings;
+package leetcode.Palindromic_Substrings;
 
 public class Solution {
     public int countSubstrings(String s) {
