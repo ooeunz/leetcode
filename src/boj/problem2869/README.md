@@ -1,4 +1,4 @@
-# 달팽이는 올라가고 싶다
+# [달팽이는 올라가고 싶다](https://www.acmicpc.net/problem/2869)
 
 달팽이는 단 한번 `backword` 값과 관계없이 `forward` 값만큼 이동할 수 있다는 점입니다.
 그러므로 `goal - forward`를 한 값에서 매일 이동할 수 있는 값 `val step = forward - backward`의 몫(이동한 날 수)와 나머지가 존재한다면 +1을 하여서
